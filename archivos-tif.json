@@ -1,0 +1,20 @@
+{
+    "urls": [
+        {
+            "name": "Modelo Digital de Superficie DSM - RM",
+            "url": "https://github.com/rsantibanez/temp/raw/main/1.tif"
+        },
+        {
+            "name": "Modelo Digital de Elevación DEM - RM",
+            "url": "https://github.com/rsantibanez/temp/raw/main/2.tif"
+        },
+        {
+            "name": "Mosaico Multiespectral RM",
+            "url": "https://github.com/rsantibanez/temp/raw/main/3.tif"
+        },
+        {
+            "name": "Mosaico Pansharpened RM",
+            "url": "https://github.com/rsantibanez/temp/raw/main/4.tif"
+        }
+    ]
+}
