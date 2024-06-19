@@ -23,6 +23,10 @@
         {
             "name": "orig",
             "url": "https://github.com/rsantibanez/temp/raw/main/orig.tif"
+        },
+        {
+            "name": "Pruebas-8",
+            "url": "https://github.com/rsantibanez/temp/raw/main/8.tif"
         }
     ]
 }
