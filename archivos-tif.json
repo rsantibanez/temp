@@ -19,6 +19,10 @@
         {
             "name": "Test - Mapa",
             "url": "https://github.com/rsantibanez/temp/raw/main/5.tif"
+        },
+        {
+            "name": "orig",
+            "url": "https://github.com/rsantibanez/temp/raw/main/orig.tif"
         }
     ]
 }
