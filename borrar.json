@@ -1,0 +1,12 @@
+{
+    "urls": [
+        {
+            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice NDVI",
+            "url": "https://github.com/rsantibanez/temp/raw/main/4/Mosaico RM Color Verdadero fusión pancromático - Índice Normalizado de Vegetación - NDVI.tif"
+        },
+        {
+            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice de Agua de Diferencia Normalizada - NDWI",
+            "url": "https://github.com/rsantibanez/temp/raw/main/4/Mosaico RM Color Verdadero fusión pancromático - Índice de Agua de Diferencia Normalizada - NDWI.tif"
+        }
+    ]
+}

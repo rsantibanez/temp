@@ -1,19 +1,19 @@
 {
     "urls": [
         {
-            "name": "Modelo Digital de Elevación DEM - RM - Mapa de Aspecto",
+            "name": "DEM - Mapa de Aspecto",
             "url": "https://github.com/rsantibanez/temp/raw/main/1/Modelo Digital de Elevación DEM - RM - Mapa de Aspecto.tif"
         },
         {
-            "name": "Modelo Digital de Elevación DEM - RM - Mapa de Pendiente",
+            "name": "DEM - Mapa de Pendiente",
             "url": "https://github.com/rsantibanez/temp/raw/main/1/Modelo Digital de Elevación DEM - RM - Mapa de Pendiente.tif"
         },
         {
-            "name": "Modelo Digital de Elevación DEM - RM - Mapa de Relieve Sombreado",
+            "name": "DEM - Mapa de Relieve Sombreado",
             "url": "https://github.com/rsantibanez/temp/raw/main/1/Modelo Digital de Elevación DEM - RM - Mapa de Relieve Sombreado.tif"
         },
         {
-            "name": "Modelo Digital de Elevación DEM - RM - Mapa de Sombreado",
+            "name": "DEM - Mapa de Sombreado",
             "url": "https://github.com/rsantibanez/temp/raw/main/1/Modelo Digital de Elevación DEM - RM - Mapa de Sombreado.tif"
         },
         {
@@ -21,59 +21,39 @@
             "url": "https://github.com/rsantibanez/temp/raw/main/1/Modelo Digital de Elevación DEM.tif"
         },
         {
-            "name": "Modelo Digital de Superficie DSM - RM - Mapa de Aspecto",
+            "name": "DSM - Mapa de Aspecto",
             "url": "https://github.com/rsantibanez/temp/raw/main/2/Modelo Digital de Superficie DSM - RM - Mapa de Aspecto.tif"
         },
         {
-            "name": "Modelo Digital de Superficie DSM - RM - Mapa de Pendiente",
+            "name": "DSM - Mapa de Pendiente",
             "url": "https://github.com/rsantibanez/temp/raw/main/2/Modelo Digital de Superficie DSM - RM - Mapa de Pendiente.tif"
         },
         {
-            "name": "Modelo Digital de Superficie DSM - RM - Mapa de Relieve Sombreado",
+            "name": "DSM - Mapa de Relieve Sombreado",
             "url": "https://github.com/rsantibanez/temp/raw/main/2/Modelo Digital de Superficie DSM - RM - Mapa de Relieve Sombreado.tif"
         },
         {
-            "name": "Modelo Digital de Superficie DSM - RM - Mapa de Sombreado",
+            "name": "DSM - Mapa de Sombreado",
             "url": "https://github.com/rsantibanez/temp/raw/main/2/Modelo Digital de Superficie DSM - RM - Mapa de Sombreado.tif"
         },
         {
-            "name": "Modelo Digital de Superficie DSM - RM",
+            "name": "DSM",
             "url": "https://github.com/rsantibanez/temp/raw/main/2/Modelo Digital de Superficie DSM - RM.tif"
         },
         {
-            "name": "Mosaico RM Color Verdadero - Índice Normalizado de Vegetación",
-            "url": "https://github.com/rsantibanez/temp/raw/main/3/Mosaico RM Color Verdadero - Índice Normalizado de Vegetación.tif"
-        },
-        {
-            "name": "Mosaico RM Color Verdadero - Índice de Agua de Diferencia Normalizada",
-            "url": "https://github.com/rsantibanez/temp/raw/main/3/Mosaico RM Color Verdadero - Índice de Agua de Diferencia Normalizada.tif"
-        },
-        {
-            "name": "Mosaico RM Color Verdadero - Índice de Relación Simple",
-            "url": "https://github.com/rsantibanez/temp/raw/main/3/Mosaico RM Color Verdadero - Índice de Relación Simple.tif"
-        },
-        {
-            "name": "Mosaico RM Color Verdadero - Índice de Vegetación Ajustado al Suelo",
-            "url": "https://github.com/rsantibanez/temp/raw/main/3/Mosaico RM Color Verdadero - Índice de Vegetación Ajustado al Suelo.tif"
-        },
-        {
-            "name": "Mosaico RM Color Verdadero",
-            "url": "https://github.com/rsantibanez/temp/raw/main/3/Mosaico RM Color Verdadero.tif"
-        },
-        {
-            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice Normalizado de Vegetación - NDVI",
+            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice NDVI",
             "url": "https://github.com/rsantibanez/temp/raw/main/4/Mosaico RM Color Verdadero fusión pancromático - Índice Normalizado de Vegetación - NDVI.tif"
         },
         {
-            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice de Agua de Diferencia Normalizada - NDWI",
+            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice NDWI",
             "url": "https://github.com/rsantibanez/temp/raw/main/4/Mosaico RM Color Verdadero fusión pancromático - Índice de Agua de Diferencia Normalizada - NDWI.tif"
         },
         {
-            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice de Relación Simple - SR",
+            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice SR",
             "url": "https://github.com/rsantibanez/temp/raw/main/4/Mosaico RM Color Verdadero fusión pancromático - Índice de Relación Simple - SR.tif"
         },
         {
-            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice de Vegetación Ajustado al Suelo - SAVI",
+            "name": "Mosaico RM Color Verdadero fusión pancromático - Índice SAVI",
             "url": "https://github.com/rsantibanez/temp/raw/main/4/Mosaico RM Color Verdadero fusión pancromático - Índice de Vegetación Ajustado al Suelo - SAVI.tif"
         },
         {
