@@ -3,13 +3,13 @@
   "version" : "2.9.0",
   "build" : 32739,
   "layers" : [
-    "CIMPATH=lyrx/32ef71e0b4ba4e448139f20d95162496.xml"
+    "CIMPATH=lyrx/3661b5155bd048199b1a36408e5f3a05.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMRasterLayer",
       "name" : "Reclass_pans1",
-      "uRI" : "CIMPATH=lyrx/32ef71e0b4ba4e448139f20d95162496.xml",
+      "uRI" : "CIMPATH=lyrx/3661b5155bd048199b1a36408e5f3a05.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
@@ -35,7 +35,7 @@
         "type" : "CIMStandardDataConnection",
         "workspaceConnectionString" : "DATABASE=..\\..\\source\\WebAppBuilderForArcGIS\\server\\apps\\19\\aprx\\lyrx.gdb",
         "workspaceFactory" : "FileGDB",
-        "dataset" : "reclass_ndvi",
+        "dataset" : "reclass_sr",
         "datasetType" : "esriDTRasterDataset"
       },
       "colorizer" : {
@@ -60,7 +60,7 @@
                 "values" : [
                   "1"
                 ],
-                "label" : "-1 - 0 (Suelo descubierto)",
+                "label" : "0 - 1 (Ausencia de vegetación)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
@@ -76,12 +76,12 @@
                 "values" : [
                   "2"
                 ],
-                "label" : "0 - 0.1",
+                "label" : "1 - 2",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
                     255,
-                    126,
+                    120,
                     0,
                     100
                   ]
@@ -92,12 +92,12 @@
                 "values" : [
                   "3"
                 ],
-                "label" : "0.1 - 0.2",
+                "label" : "2 - 3",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
                     230,
-                    152,
+                    170,
                     0,
                     100
                   ]
@@ -108,7 +108,7 @@
                 "values" : [
                   "4"
                 ],
-                "label" : "0.2 - 0.3",
+                "label" : "3 - 4",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
@@ -124,12 +124,12 @@
                 "values" : [
                   "5"
                 ],
-                "label" : "0.3 - 0.4",
+                "label" : "4 - 5 (Presencia de vegetacion)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
                     255,
-                    204,
+                    227,
                     0,
                     100
                   ]
@@ -140,12 +140,12 @@
                 "values" : [
                   "6"
                 ],
-                "label" : "0.4 - 0.5",
+                "label" : "5 - 6",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    255,
-                    255,
+                    227,
+                    245,
                     0,
                     100
                   ]
@@ -156,12 +156,12 @@
                 "values" : [
                   "7"
                 ],
-                "label" : "0.5 - 0.6",
+                "label" : "6 - 7",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    206,
-                    238,
+                    176,
+                    226,
                     0,
                     100
                   ]
@@ -172,12 +172,12 @@
                 "values" : [
                   "8"
                 ],
-                "label" : "0.6 - 0.7",
+                "label" : "7 - 8",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    162,
-                    220,
+                    130,
+                    207,
                     0,
                     100
                   ]
@@ -188,12 +188,12 @@
                 "values" : [
                   "9"
                 ],
-                "label" : "0.7 - 0.8",
+                "label" : "8 - 9",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    122,
-                    203,
+                    90,
+                    188,
                     0,
                     100
                   ]
@@ -204,12 +204,12 @@
                 "values" : [
                   "10"
                 ],
-                "label" : "0.8 - 0.9 (Plantas vigorosas)",
+                "label" : "\u2265 9 (Vegetación vigorosa)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    87,
-                    186,
+                    38,
+                    115,
                     0,
                     100
                   ]

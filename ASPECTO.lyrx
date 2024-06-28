@@ -3,18 +3,18 @@
   "version" : "2.9.0",
   "build" : 32739,
   "layers" : [
-    "CIMPATH=lyrx/32ef71e0b4ba4e448139f20d95162496.xml"
+    "CIMPATH=lyrx/f9a195417c0b446aaab7bc64e5f78b9e.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMRasterLayer",
-      "name" : "Reclass_pans1",
-      "uRI" : "CIMPATH=lyrx/32ef71e0b4ba4e448139f20d95162496.xml",
+      "name" : "Reclass_aspe1",
+      "uRI" : "CIMPATH=lyrx/f9a195417c0b446aaab7bc64e5f78b9e.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
       "useSourceMetadata" : true,
-      "description" : "Reclass_pans1",
+      "description" : "Reclass_aspe1",
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
         "mapElevationID" : "{FBA45C71-9A95-48C0-A52F-8DEFC6EF0EF6}"
@@ -35,7 +35,7 @@
         "type" : "CIMStandardDataConnection",
         "workspaceConnectionString" : "DATABASE=..\\..\\source\\WebAppBuilderForArcGIS\\server\\apps\\19\\aprx\\lyrx.gdb",
         "workspaceFactory" : "FileGDB",
-        "dataset" : "reclass_ndvi",
+        "dataset" : "reclass_aspecto",
         "datasetType" : "esriDTRasterDataset"
       },
       "colorizer" : {
@@ -60,13 +60,13 @@
                 "values" : [
                   "1"
                 ],
-                "label" : "-1 - 0 (Suelo descubierto)",
+                "label" : "Norte (0° - 22.5°)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    225,
-                    225,
-                    225,
+                    255,
+                    0,
+                    0,
                     100
                   ]
                 }
@@ -76,39 +76,7 @@
                 "values" : [
                   "2"
                 ],
-                "label" : "0 - 0.1",
-                "color" : {
-                  "type" : "CIMRGBColor",
-                  "values" : [
-                    255,
-                    126,
-                    0,
-                    100
-                  ]
-                }
-              },
-              {
-                "type" : "CIMRasterUniqueValueClass",
-                "values" : [
-                  "3"
-                ],
-                "label" : "0.1 - 0.2",
-                "color" : {
-                  "type" : "CIMRGBColor",
-                  "values" : [
-                    230,
-                    152,
-                    0,
-                    100
-                  ]
-                }
-              },
-              {
-                "type" : "CIMRasterUniqueValueClass",
-                "values" : [
-                  "4"
-                ],
-                "label" : "0.2 - 0.3",
+                "label" : "Noreste (22.5° - 67.5°)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
@@ -122,15 +90,47 @@
               {
                 "type" : "CIMRasterUniqueValueClass",
                 "values" : [
-                  "5"
+                  "3"
                 ],
-                "label" : "0.3 - 0.4",
+                "label" : "Este (67.5° - 112.5°)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
                     255,
-                    204,
+                    255,
                     0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "4"
+                ],
+                "label" : "Sureste (112.5° - 157.5°)",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    85,
+                    255,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "5"
+                ],
+                "label" : "Sur (157.5° - 202.5°)",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    255,
+                    197,
                     100
                   ]
                 }
@@ -140,13 +140,13 @@
                 "values" : [
                   "6"
                 ],
-                "label" : "0.4 - 0.5",
+                "label" : "Suroeste (202.5° - 247.5°)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    255,
-                    255,
                     0,
+                    197,
+                    255,
                     100
                   ]
                 }
@@ -156,13 +156,13 @@
                 "values" : [
                   "7"
                 ],
-                "label" : "0.5 - 0.6",
+                "label" : "Oeste (247.5° - 292.5°)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    206,
-                    238,
                     0,
+                    112,
+                    255,
                     100
                   ]
                 }
@@ -172,13 +172,13 @@
                 "values" : [
                   "8"
                 ],
-                "label" : "0.6 - 0.7",
+                "label" : "Noroeste (292.5° - 337.5°)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    162,
-                    220,
+                    255,
                     0,
+                    197,
                     100
                   ]
                 }
@@ -188,28 +188,12 @@
                 "values" : [
                   "9"
                 ],
-                "label" : "0.7 - 0.8",
+                "label" : "Norte (337.5° - 360°)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    122,
-                    203,
+                    255,
                     0,
-                    100
-                  ]
-                }
-              },
-              {
-                "type" : "CIMRasterUniqueValueClass",
-                "values" : [
-                  "10"
-                ],
-                "label" : "0.8 - 0.9 (Plantas vigorosas)",
-                "color" : {
-                  "type" : "CIMRGBColor",
-                  "values" : [
-                    87,
-                    186,
                     0,
                     100
                   ]
