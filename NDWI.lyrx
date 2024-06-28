@@ -33,7 +33,7 @@
       "allowDrapingOnIntegratedMesh" : true,
       "dataConnection" : {
         "type" : "CIMStandardDataConnection",
-        "workspaceConnectionString" : "DATABASE=..\\..\\source\\WebAppBuilderForArcGIS\\server\\apps\\19\\aprx\\lyrx.gdb",
+        "workspaceConnectionString" : "DATABASE=..\\source\\WebAppBuilderForArcGIS\\server\\apps\\19\\aprx\\lyrx.gdb",
         "workspaceFactory" : "FileGDB",
         "dataset" : "reclass_NDWI",
         "datasetType" : "esriDTRasterDataset"
@@ -41,6 +41,15 @@
       "colorizer" : {
         "type" : "CIMRasterUniqueValueColorizer",
         "resamplingType" : "NearestNeighbor",
+        "defaultColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            0,
+            0,
+            0,
+            100
+          ]
+        },
         "fieldName" : "Value",
         "groups" : [
           {
@@ -51,13 +60,13 @@
                 "values" : [
                   "1"
                 ],
-                "label" : "1",
+                "label" : "-1 - -0.15 (Suelo seco)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    149,
-                    74,
-                    175,
+                    225,
+                    225,
+                    225,
                     100
                   ]
                 }
@@ -67,13 +76,13 @@
                 "values" : [
                   "2"
                 ],
-                "label" : "2",
+                "label" : "-0.15 - -0.12 (Aguas con sedimentos)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    81,
-                    187,
-                    87,
+                    243,
+                    250,
+                    190,
                     100
                   ]
                 }
@@ -83,13 +92,13 @@
                 "values" : [
                   "3"
                 ],
-                "label" : "3",
+                "label" : "-0.12 - 0 (Suelo seco)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    238,
-                    114,
-                    88,
+                    225,
+                    225,
+                    225,
                     100
                   ]
                 }
@@ -99,13 +108,13 @@
                 "values" : [
                   "4"
                 ],
-                "label" : "4",
+                "label" : "0 - 0.1",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    117,
                     199,
-                    252,
+                    233,
+                    180,
                     100
                   ]
                 }
@@ -115,13 +124,13 @@
                 "values" : [
                   "5"
                 ],
-                "label" : "5",
+                "label" : "0.1 - 0.2",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    251,
-                    232,
-                    163,
+                    151,
+                    214,
+                    185,
                     100
                   ]
                 }
@@ -131,13 +140,13 @@
                 "values" : [
                   "6"
                 ],
-                "label" : "6",
+                "label" : "0.2 - 0.3",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    144,
-                    84,
-                    103,
+                    106,
+                    197,
+                    190,
                     100
                   ]
                 }
@@ -147,13 +156,13 @@
                 "values" : [
                   "7"
                 ],
-                "label" : "7",
+                "label" : "0.3 - 0.4",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    100,
-                    150,
-                    126,
+                    65,
+                    182,
+                    196,
                     100
                   ]
                 }
@@ -163,13 +172,13 @@
                 "values" : [
                   "8"
                 ],
-                "label" : "8",
+                "label" : "0.4 - 0.5 (Suelo húmedo)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    56,
-                    90,
-                    151,
+                    41,
+                    157,
+                    193,
                     100
                   ]
                 }
@@ -179,13 +188,13 @@
                 "values" : [
                   "9"
                 ],
-                "label" : "9",
+                "label" : "0.5 - 0.6",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    129,
-                    105,
-                    50,
+                    31,
+                    128,
+                    184,
                     100
                   ]
                 }
@@ -195,13 +204,13 @@
                 "values" : [
                   "10"
                 ],
-                "label" : "10",
+                "label" : "0.6 - 0.7 (Cuerpo de agua)",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    236,
-                    99,
-                    165,
+                    34,
+                    94,
+                    168,
                     100
                   ]
                 }
